@@ -4,7 +4,7 @@ export function MissionVision() {
       <div className="container px-4 md:px-6">
         <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
           <div className="space-y-6">
-            <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 text-primary font-bold text-xl">
+            <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-yellow-100 text-yellow-500 font-bold text-xl">
               1
             </div>
             <h3 className="text-2xl md:text-3xl font-bold font-serif">Our Mission</h3>
@@ -14,7 +14,7 @@ export function MissionVision() {
           </div>
 
           <div className="space-y-6">
-            <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 text-primary font-bold text-xl">
+            <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-yellow-100 text-yellow-500 font-bold text-xl">
               2
             </div>
             <h3 className="text-2xl md:text-3xl font-bold font-serif">Our Vision</h3>

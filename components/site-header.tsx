@@ -7,9 +7,9 @@ export function SiteHeader() {
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2">
           <img
-            src="/anora.png"
+            src="/try.png"
             alt="anora logo"
-            className="w-20 h-32 object-contain"
+            className="w-16 h-24 object-contain"
           />
         </Link>
 

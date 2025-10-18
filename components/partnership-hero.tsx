@@ -11,7 +11,7 @@ export function PartnershipHero() {
           financially on a regular basis to help move forward the vision of AGF.
         </p>
 
-        <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 md:p-8 mb-8 border border-white/40">
+        <div className="bg-black/100 backdrop-blur-sm rounded-lg p-6 md:p-8 mb-8 border border-white/40">
           <h2 className="text-xl md:text-2xl font-semibold mb-4">A MESSAGE FROM OUR VISIONEER</h2>
           <p className="leading-relaxed mb-6">
             Thank you for choosing to share in our vision of not only helping people know about God but to experience Him personally. I believe that as you become a Partner, and give your Partnership seed consistently, you will
@@ -21,7 +21,7 @@ export function PartnershipHero() {
             {/* <Button asChild size="lg" className="bg-yellow-500 hover:bg-yellow-600">
               <Link href="#give">A Partner? [Give Now]</Link>
             </Button> */}
-            <Button asChild size="lg" variant="outline" className="bg-white text-yellow-600 hover:bg-gray-100">
+            <Button asChild size="lg" variant="outline" className="bg-white text-yellow-600 hover:bg-yellow-500">
               <Link href="#form">New Partner? [Fill The Form Below]</Link>
             </Button>
           </div>

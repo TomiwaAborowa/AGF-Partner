@@ -9,7 +9,7 @@ const faqs = [
   {
     question: "How can I become a Partner?",
     answer:
-      "You can become a Partner by following the simple steps below:\n1. Click here to fill the Partnership form OR visit the Information stand during our church services to pick up a physical form.\n2. Complete and submit the form.\n3. Start giving your Partnership Seed immediately or via any of the other methods available.",
+      "You can become a Partner by following the simple steps below:\n1. Click here to fill the Partnership form .\n2. Complete and submit the form.\n3. Start giving your Partnership Seed immediately or via any of the other methods available.",
   },
   // {
   //   question: "Can I decide how my Partnership Seed is used?",
@@ -28,7 +28,7 @@ const faqs = [
   {
     question: "How can I give my Partnership seed?",
     answer:
-      "You can give your seed through any of the methods listed below:\n1. Click on Give your Partnership seed and you will be redirected to our safe and secure payment link, where you can complete the process of giving your seed.\n2. Do a bank transfer to Anora Global Family, First Bank, 2032100143.",
+      "You can give your seed through any of the methods listed below:\n1. Click on Give your Partnership seed and you will be redirected to our safe and secure payment link, where you can complete the process of giving your seed.\n2. Do a bank transfer to Anora Media, Guaranty Trust Bank, 0656890371.",
   },
 ]
 
@@ -40,7 +40,7 @@ export function PartnershipFAQ() {
         <Accordion type="single" collapsible className="w-full">
           {faqs.map((faq, index) => (
             <AccordionItem key={index} value={`item-${index}`}>
-              <AccordionTrigger className="text-left text-base font-semibold">{faq.question}</AccordionTrigger>
+              <AccordionTrigger className="text-left text-gray-700 text-base font-semibold">{faq.question}</AccordionTrigger>
               <AccordionContent className="text-muted-foreground text-base whitespace-pre-line leading-relaxed">
                 {faq.answer}
               </AccordionContent>

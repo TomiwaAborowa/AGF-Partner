@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react"
 
 export function PartnershipCTA() {
   return (
-    <section className="py-20 md:py-32 bg-primary text-primary-foreground">
+    <section className="py-20 md:py-32 bg-black text-primary-foreground">
       <div className="container">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <h2 className="text-3xl md:text-5xl font-bold font-serif text-balance">Partner With Us in Ministry</h2>

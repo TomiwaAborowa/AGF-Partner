@@ -63,7 +63,7 @@ export function PartnershipForm() {
   return (
     <section id="form" className="py-16 px-4 bg-gray-50">
       <div className="max-w-3xl mx-auto">
-        <Card>
+        <Card className="bg-white">
           <CardHeader className="text-center">
             <CardTitle className="text-3xl font-bold text-yellow-600">Start a Partnership with God</CardTitle>
             <CardDescription className="text-lg">Partnership Form</CardDescription>
@@ -72,44 +72,44 @@ export function PartnershipForm() {
             <form onSubmit={handleSubmit} className="space-y-8">
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
-                  <Label htmlFor="firstName" className="text-base">First Name *</Label>
-                  <Input id="firstName" value={formData.firstName} onChange={handleChange} required />
+                  <Label htmlFor="firstName" className="text-base text-gray-700">First Name *</Label>
+                  <Input id="firstName" className="text-gray-700" value={formData.firstName} onChange={handleChange} required />
                 </div>
                 <div>
-                  <Label htmlFor="lastName" className="text-base">Last Name *</Label>
-                  <Input id="lastName" value={formData.lastName} onChange={handleChange} required />
+                  <Label htmlFor="lastName" className="text-base text-gray-700">Last Name *</Label>
+                  <Input id="lastName" className="text-gray-700" value={formData.lastName} onChange={handleChange} required />
                 </div>
               </div>
 
               <div>
-                <Label htmlFor="email" className="text-base">Email *</Label>
-                <Input id="email" type="email" value={formData.email} onChange={handleChange} required />
+                <Label htmlFor="email" className="text-base text-gray-700">Email *</Label>
+                <Input id="email" className="text-gray-700" type="email" value={formData.email} onChange={handleChange} required />
               </div>
 
               <div>
-                <Label htmlFor="phone" className="text-base">Phone Number *</Label>
-                <Input id="phone" type="tel" value={formData.phone} onChange={handleChange} required />
+                <Label htmlFor="phone" className="text-base text-gray-700">Phone Number *</Label>
+                <Input id="phone" className="text-gray-700" type="tel" value={formData.phone} onChange={handleChange} required />
               </div>
 
               <div>
-                <Label htmlFor="dob" className="text-base">Date of Birth</Label>
-                <Input id="dob" type="date" value={formData.dob} onChange={handleChange} />
+                <Label htmlFor="dob" className="text-base text-gray-700">Date of Birth</Label>
+                <Input id="dob" type="date" className="text-gray-700" value={formData.dob} onChange={handleChange} />
               </div>
 
               <div>
-                <Label htmlFor="location" className="text-base">State/Country *</Label>
-                <Input id="location" value={formData.location} onChange={handleChange} required />
+                <Label htmlFor="location" className="text-base text-gray-700">State/Country *</Label>
+                <Input id="location" className="text-gray-700" value={formData.location} onChange={handleChange} required />
               </div>
 
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
-                  <Label htmlFor="currency" className="text-base">Currency *</Label>
+                  <Label htmlFor="currency" className="text-base text-gray-700">Currency *</Label>
                   <select
                     id="currency"
                     value={formData.currency}
                     onChange={handleChange}
                     required
-                    className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                    className="flex h-10 w-full rounded-md border border-input bg-white text-gray-700 px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                   >
                     <option value="">Select currency</option>
                     <option value="NGN">NGN</option>
@@ -119,13 +119,13 @@ export function PartnershipForm() {
                   </select>
                 </div>
                 <div>
-                  <Label htmlFor="amount" className="text-base">Amount *</Label>
-                  <Input id="amount" type="number" value={formData.amount} onChange={handleChange} required />
+                  <Label htmlFor="amount" className="text-base text-gray-700">Amount *</Label>
+                  <Input id="amount" className="text-gray-700" type="number" value={formData.amount} onChange={handleChange} required />
                 </div>
               </div>
 
               <div>
-                <Label className="mb-3 block">Seed Frequency</Label>
+                <Label className="mb-3 block text-gray-700">Seed Frequency</Label>
                 <div className="flex flex-wrap gap-3">
                   {seedFrequencyOptions.map((option) => (
                     <div key={option} className="flex items-center space-x-2">
@@ -138,7 +138,7 @@ export function PartnershipForm() {
                         onChange={(e) => setFormData({ ...formData, frequency: e.target.value })}
                         className="h-4 w-4"
                       />
-                      <label htmlFor={`freq-${option}`} className="text-sm">{option}</label>
+                      <label htmlFor={`freq-${option}`} className="text-sm text-gray-700">{option}</label>
                     </div>
                   ))}
                 </div>
