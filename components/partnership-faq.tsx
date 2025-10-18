@@ -36,7 +36,7 @@ export function PartnershipFAQ() {
   return (
     <section className="py-16 px-4 bg-gray-50">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-8 text-blue-900">Frequently Asked Questions</h2>
+        <h2 className="text-3xl font-bold text-center mb-8 text-yellow-600">Frequently Asked Questions</h2>
         <Accordion type="single" collapsible className="w-full">
           {faqs.map((faq, index) => (
             <AccordionItem key={index} value={`item-${index}`}>

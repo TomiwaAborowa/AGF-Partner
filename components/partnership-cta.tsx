@@ -14,7 +14,7 @@ export function PartnershipCTA() {
             make a lasting impact for the Kingdom of God.
           </p>
 
-          <Button asChild size="lg" variant="secondary" className="gap-2">
+          <Button asChild size="lg" variant="secondary" className="gap-2 bg-yellow-500 hover:bg-yellow-600 text-white">
             <Link href="/partnership">
               Become a Partner
               <ArrowRight className="w-4 h-4" />

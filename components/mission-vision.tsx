@@ -9,9 +9,7 @@ export function MissionVision() {
             </div>
             <h3 className="text-2xl md:text-3xl font-bold font-serif">Our Mission</h3>
             <p className="text-muted-foreground leading-relaxed">
-              To preach the Gospel of Jesus Christ to all nations, making disciples and teaching them to observe all
-              that Christ has commanded. We are committed to reaching the lost, restoring the broken, and raising up a
-              generation of believers who will impact their world for Christ.
+              Building a platform that empowers every individual to uncover, develop, and express their God-given purpose and talent - inspiring them to become shining light in their communities and the world.
             </p>
           </div>
 
@@ -21,9 +19,7 @@ export function MissionVision() {
             </div>
             <h3 className="text-2xl md:text-3xl font-bold font-serif">Our Vision</h3>
             <p className="text-muted-foreground leading-relaxed">
-              To build a community of believers who are passionate about God's presence, committed to His Word, and
-              dedicated to advancing His Kingdom. We envision a ministry that impacts lives locally and globally through
-              evangelism, discipleship, and compassionate service.
+              To transform lives by bridging the gap between people and God through creative media, the living word, and prayer - establishing a lasting consciousness of the Holy Spirit in every generation.
             </p>
           </div>
         </div>

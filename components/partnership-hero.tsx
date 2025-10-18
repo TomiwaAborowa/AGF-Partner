@@ -18,9 +18,9 @@ export function PartnershipHero() {
             experience a divine increase in every area of your life, Amen- 2 Corinthians 9:7-8.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button asChild size="lg" className="bg-yellow-500 hover:bg-yellow-600">
+            {/* <Button asChild size="lg" className="bg-yellow-500 hover:bg-yellow-600">
               <Link href="#give">A Partner? [Give Now]</Link>
-            </Button>
+            </Button> */}
             <Button asChild size="lg" variant="outline" className="bg-white text-yellow-600 hover:bg-gray-100">
               <Link href="#form">New Partner? [Fill The Form Below]</Link>
             </Button>

@@ -28,7 +28,7 @@ export function SiteHeader() {
           </Link>
         </nav>
 
-        <Button asChild>
+        <Button asChild className="bg-yellow-500 hover:bg-yellow-600">
           <Link href="/partnership">Become a Partner</Link>
         </Button>
       </div>
